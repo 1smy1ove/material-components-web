@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [10.1.0](https://github.com/material-components/material-components-web/compare/v10.0.0...v10.1.0) (2021-02-18)
+
+
+### Bug Fixes
+
+* **button:** add missing feature-targeting import ([71fe9a0](https://github.com/material-components/material-components-web/commit/71fe9a067878c810fe6a7d01b8e839764d7a802c))
+* **fab:** add alternate decorator only when necessary ([0fd56a8](https://github.com/material-components/material-components-web/commit/0fd56a86b30846de63d7d1520dcecc4d5ece2347))
+* **tab:** Update ripple adapter to reflect sass ripple-target. ([97c4d40](https://github.com/material-components/material-components-web/commit/97c4d40356fcc89d9eb854ecf322ec7474aa597c))
+* **theme:** parsing error when [@import-ing](https://github.com/import-ing) mdc-theme ([b62b126](https://github.com/material-components/material-components-web/commit/b62b1266d66734fcd9d60c7893ea048f83883f8f))
+* **theme:** replace works for multiple replacements ([95322b1](https://github.com/material-components/material-components-web/commit/95322b11e3b0c938d9b4de56a1ba80d1ff42596b))
+
+
+### Features
+
+* **fab:** Added theme mixin to primary FAB variant. ([f19bbc4](https://github.com/material-components/material-components-web/commit/f19bbc4af6493f642dc4b5b45a2dc0083fa293f0))
+* **fab:** border custom prop support & add CPs for padding ([a6b3101](https://github.com/material-components/material-components-web/commit/a6b3101fb7641daab20db735b70421311534083b))
+* **list:** Add "deprecated" aliases for old list mixins / variables. ([f9cac96](https://github.com/material-components/material-components-web/commit/f9cac96cc2ad0422d73140a65dcffc5e4e8ec519))
+* **select:** allow programmatic change without firing event ([79ce087](https://github.com/material-components/material-components-web/commit/79ce0878b3233592c3188548711b311e5706d3dd)), closes [#6166](https://github.com/material-components/material-components-web/issues/6166)
+* **theme:** add configuration support for custom-properties ([1f318ff](https://github.com/material-components/material-components-web/commit/1f318ff0f033f9f51c8bf7f76ef997161ff62fd4))
+* **theme:** add create-varname() for custom properties ([b522724](https://github.com/material-components/material-components-web/commit/b5227247d730171c02bd71e9b44106cd179aaf2a))
+* **tooltip:** Adding touchstart/touchend event listeners to tooltip. This allows tooltips attached to non-focusable elements to be surfaced on mobile. ([7cd26af](https://github.com/material-components/material-components-web/commit/7cd26af4dd2033dacce75d2df2d179f81286fe71))
+
+
+
+
+
 # [10.0.0](https://github.com/material-components/material-components-web/compare/v9.0.0...v10.0.0) (2021-02-05)
 
 
